@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+:root {
+    --main-txt-color:#f5e06af8;
+    --font-base:'Gideon Roman';
+    --main-button-bg:#DF744A;
+    
+  }
+.abc
+{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    font-family: var(--font-base);
+    height:70vh;
+    letter-spacing: 0.04rem;
+    color: #c49b63;
+    text-align: left;
+    font-weight: 900;
+}
+.abc_button{
+    background-color:#734b6d !important;
+    color: white !important;
+}
+.text-pink{
+    color:whitesmoke;
+}
+.about {
+    font-family: var(--font-base);
+    letter-spacing: 0.04rem;
+    text-align: left;
+   
+}
+.about h1{
+    color: #89216B;
+}
+.about_btn{
+    background-color:#734b6d !important;
+    color:whitesmoke !important;
+    text-transform: lowercase !important;
+}
+.testimonial{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    font-family: var(--font-base);
+}
+.testimonial .testimonial-text{
+    text-decoration: underline dotted #BC9476;
+    text-decoration-line: underline;
+}
+.testimonial_img{
+    border:3px solid #f5e06af8;
+    border-radius:50%;
+    height:130px;
+    width:130px;
+    margin-left:45%
+
+}
+.testimonial_img:hover{
+    border:3px solid #DF744A;
+    height:160px;
+    width:160px; 
+    margin-left:44%
+}
+.text-left{
+    text-align: left !important;
+}
+.text-right{
+    text-align: right !important;  
+}
+.product-card:hover{
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    transform: translateY(-20px) scaleY(1.1);
+    text-transform:lowercase;
+}

@@ -1,0 +1,44 @@
+{
+    name,
+    phone,
+    date,
+    time,
+    persons
+}
+{
+{date:1703
+time:12-3
+'bookings':[{
+    name:
+    phone,
+    persons,
+}]
+}
+find(persons)=if(total>40)
+{date:17:03:23
+time:12-3
+'bookings':[{
+    name:abc
+    phone:12346,
+    persons:4,
+},
+name:abc
+    phone:12346,
+    persons:6,
+]
+date:17:03:23
+time:12-3
+total:0
+'bookings':[{
+    name:abc
+    phone:12346,
+    persons:6,
+}]
+}
+booking.persons:total=8,
+capacity=10
+capacity-total=10-8=2
+
+find(date:,time:12-3)if(totalpersons>10){
+    
+}
